@@ -1,22 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
-
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <form class="signature-website-form" action="#" method="post">
+            <h1>Contract</h1>
+            <p>Contract description</p>
+            
+            <p>
+                <b>Signature</b>
+            </p>
+
+            <canvas height="100" width="300" class="signature-website"></canvas>
+
+            <p>
+                <a href="#" class="clear-button">Clear</a>
+            </p>
+
+            <button class="submit-button" type="submit">SUBMIT</button>
+
+        </form>
+        <scripts src="hello.js"></scripts>
       </header>
     </div>
   );
