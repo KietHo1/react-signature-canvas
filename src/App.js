@@ -16,7 +16,7 @@ function App() {
             <canvas height="100" width="300" class="signature-website"></canvas>
 
             <p>
-                <a href="#" class="clear-button">Clear</a>
+                <button class="clear-button">Clear</button>
             </p>
 
             <button class="submit-button" type="submit">SUBMIT</button>
