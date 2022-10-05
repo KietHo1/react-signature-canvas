@@ -5,6 +5,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        
         <form class="signature-website-form" action="#" method="post">
             <h1>Contract</h1>
             <p>Contract description</p>

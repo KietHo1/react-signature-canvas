@@ -34,14 +34,14 @@ const getTargetPosition = (event) =>{
 }
 
 const handlePointerMove = (event) => {
-    if(!writingMode) return;
+    if(!writingMode) return
 
     const [positionX, positionY] = getTargetPosition(event);
     ctx.lineTo(positionX, positionY);
     ctx.stroke();
 }
 
-const handlePointerUp = (event) => {
+const handlePointerUp = () => {
     writingMode = false;
 }
 

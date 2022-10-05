@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: white;
+  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -54,7 +54,7 @@ body {
 }
 
 .signature-website{
-  cursor: url(https://iconarchive.com/download/i49354/designcontest/vintage/Ink-Pen.ico) 1 26, pointer;
+  cursor: url(signature.png) 1 26, pointer;
   border: 2px solid var(--primary-color);
   border-radius: 4px;
 }
@@ -73,7 +73,7 @@ body {
   margin-top: 2rem;
 }
 
-@media screen and (min-width: 768px){
+@media (pointer: coarse){
   body{
     overflow: hidden;
   }
