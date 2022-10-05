@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 0vmin;
   pointer-events: none;
 }
 
@@ -54,7 +54,7 @@ body {
 }
 
 .signature-website{
-  cursor: url() 1 26, pointer;
+  cursor: url(https://iconarchive.com/download/i49354/designcontest/vintage/Ink-Pen.ico) 1 26, pointer;
   border: 2px solid var(--primary-color);
   border-radius: 4px;
 }
